@@ -14,8 +14,15 @@
   "contributes": {
     "commands": [
       {
-        "command": "gobacktolastnumber.helloWorld",
-        "title": "Hello World"
+        "command": "extension.goToLastNumber",
+        "title": "Go to Last Number"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.goToLastNumber",
+        "key": "ctrl+shift+?", 
+        "when": "editorTextFocus"
       }
     ]
   },
